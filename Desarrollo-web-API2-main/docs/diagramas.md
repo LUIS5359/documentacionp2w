@@ -11,7 +11,7 @@ flowchart LR
     Repositories -->|ORM Hibernate| Database[("Base de datos relacional\nPostgreSQL / H2 de pruebas")]
     Services -->|DTOs y agregaciones| Dashboard["DTOs y ensambladores\n(DashboardResponse, etc.)"]
     Security["Capa de seguridad\nSecurityConfig + JwtAuthFilter + JwtService"] -->|Filtra y autentica| Controllers
-    Observability["Actuator / Endpoints de salud\n(DashboardController.health, etc.)"] ..> Controllers
+    Observability["Actuator / Endpoints de salud\n(DashboardController.health, etc.)"] -.-> Controllers
 ```
 
 ## Diagrama de despliegue

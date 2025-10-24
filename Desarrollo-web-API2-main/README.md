@@ -197,3 +197,6 @@ Las entidades principales describen los objetos de negocio:
 ## 12. Pruebas automatizadas
 Existe una prueba de arranque (`contextLoads`) en `Prototipo1ApplicationTests`, que verifica la carga correcta del contexto de Spring Boot.【F:src/test/java/com/prototipo/prototipo1/Prototipo1ApplicationTests.java†L1-L13】
 
+## 13. Diagramas de arquitectura
+Los diagramas de componentes y despliegue que resumen la interacción entre capas, filtros de seguridad y la infraestructura de base de datos se encuentran en [`docs/diagramas.md`](docs/diagramas.md).
+
